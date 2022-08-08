@@ -1,0 +1,100 @@
+
+body{
+	font-family: arial;
+	margin: 0;
+	padding: 0;
+}
+@media (min-width: 650px){
+	header {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	background-color: lightgray;
+	padding: 2%;
+	background-image: url("header.jpg");
+	color:white;
+
+	}
+	header h1{
+		margin-top: 1%;
+		margin-bottom: 0;
+	}
+	header i{
+		margin-bottom: 1%;
+
+	}
+	.todo{
+		display: flex;
+		text-align: justify;
+	}
+	.todo main{
+		margin-left: 1%;
+		padding: 0.5% 2%;
+		text-align: justify;
+	}
+	.todo main article img{
+		float: left;
+		width: 40%;
+		height: auto;
+		margin: 1% 1% 1% 0;
+	}
+	.todo aside{
+		background-color: lightgray;
+		margin-right: 2%;
+		margin-top: 2%;
+		padding: 1%;
+		border-radius: 2%;
+	}
+	}
+	.todo aside img{
+		width: 100%;
+		height: auto;
+	}
+	footer{
+		background-color:#266c44 ;
+		font-weight: lighter;
+		display: flex;
+		padding-top: 3%;
+		border: none;
+		padding-bottom: 2%;
+		margin-top: 1%;
+	}
+	footer .colegio{
+		height: auto;
+		width: 20%;
+		margin: 0 0% 0% 9%;
+
+	}
+
+	}
+	footer .info{
+		width: 80%;
+		height: auto;
+		margin-top: 0%;
+		padding: 0;
+		background-color: beige;
+	}
+	.codigo{
+		display: flex;
+		background-color: #1A492E;
+		justify-content: space-between;
+		padding: 0 5% ;
+		color:#1A492E;
+	}
+	.codigo main{
+	margin: 0;
+}
+	.codigo img{
+		width: 8%;
+		height:auto;
+		margin-top:2%;
+		
+	}
+	
+
+
+@media (max-width: 650px orientation: Portrait){
+	.todo{
+		
+	}
+}
